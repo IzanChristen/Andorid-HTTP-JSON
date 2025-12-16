@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imgPremier"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/premier"
+        android:contentDescription="Premier"/>
+
+    <ImageView
+        android:id="@+id/imgLaLiga"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/laliga"
+        android:contentDescription="LaLiga"/>
+
+    <ImageView
+        android:id="@+id/imgSerieA"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/seriea"
+        android:contentDescription="SerieA"/>
+
+    <ImageView
+        android:id="@+id/imgBundesliga"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bundesliga"
+        android:contentDescription="Bundesliga"/>
+
+    <ImageView
+        android:id="@+id/imgLigue1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ligue1"
+        android:contentDescription="Ligue1"/>
+
+</LinearLayout>
