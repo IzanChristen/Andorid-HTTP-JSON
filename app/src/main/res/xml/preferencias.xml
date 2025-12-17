@@ -1,0 +1,8 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="url_base"
+        android:title="URL base JSON"
+        android:defaultValue="https://www.vidalibarraquer.net/android/sports/" />
+
+</PreferenceScreen>
